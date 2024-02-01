@@ -19,6 +19,7 @@ public class TaskPage extends JFrame {
     {
         setTitle("Tasks");
         JButton addTask=new JButton("Add task");
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         panelAddButton.add(addTask);
         panelAddButton.setPreferredSize(new Dimension(400,50));
         panelAddButton.setMaximumSize(new Dimension(400,50));
